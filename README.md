@@ -1,4 +1,4 @@
-![](test.ppm?raw=true)
+![](test.png) Output from final chapter
 ## About
 
 I was reading through [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html) and [Programming Massively Parallel Processors](https://books.google.com/books/about/Programming_Massively_Parallel_Processor.html?id=wcS_DAAAQBAJ) at the same time and thought raytracing would lend itself well to parallel programming. I would implement chapters of Shirley's book and then use [this NVIDIA blog post](https://developer.nvidia.com/blog/accelerated-ray-tracing-cuda/) to see how I could have written it better. Overall I thought this was a great CUDA learning experience. 
