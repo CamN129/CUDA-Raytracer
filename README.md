@@ -16,4 +16,4 @@ This was ran on my laptop GPU, a Quadro T2000.
 
 ## Future Work
 
-I hope to extend this project to include the sequels The Next Week and The Rest of Your Life.
+I hope to extend this project to include the sequels [_Ray Tracing: The Next Week_](https://raytracing.github.io/books/RayTracingTheNextWeek.html) and [_Ray Tracing: The Rest of Your Life_](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html).
