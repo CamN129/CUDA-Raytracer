@@ -10,9 +10,9 @@ make
 ```
 should work and can then be ran with
 ```console
-./main
+./main > out.ppm
 ```
-This was run on my laptop GPU, a Quadro T2000.
+This was ran on my laptop GPU, a Quadro T2000.
 
 ## Future Work
 
