@@ -1,28 +1,19 @@
-![](gltest.png) Render output, spheres of varying metallic and roughness factors at the Walk of Fame
+![](test.png) Output from final chapter
 ## About
 
-I went through the [learnOpenGL](https://learnopengl.com/) tutorials to learn about writing code in openGL and computer graphics in general. Going from the getting started section to the end of the PBR section and taking the time to understand everything took quite a while, so here is the code for a basic PBR renderer.
+I was reading through [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html) and [_Programming Massively Parallel Processors_](https://books.google.com/books/about/Programming_Massively_Parallel_Processor.html?id=wcS_DAAAQBAJ) at the same time and thought raytracing would lend itself well to parallel programming. I would implement chapters of Shirley's book and then use [this NVIDIA blog post](https://developer.nvidia.com/blog/accelerated-ray-tracing-cuda/) to see how I could have written it better. Overall I thought this was a great CUDA learning experience. 
 
 ## Build and Run
-I compiled this on Ubuntu 20.04 using g++ version 8.4.0. I included a simple makefile so simply running
+I compiled this on Ubuntu 20.04 using nvcc version 10.01. I included a simple makefile so simply running
 ```console
 make
 ```
-should work and the render can be viewed with
+should work and can then be ran with
 ```console
-./main
+./main > out.ppm
 ```
-## Dependencies
-*[stb_image](https://github.com/nothings/stb)
-*[GLFW](https://www.glfw.org/) (for window creation)
-*GLM (can be installed with apt install)
-*[GLAD](https://github.com/Dav1dde/glad)
+This was ran on my laptop GPU, a Quadro T2000.
 
 ## Future Work
 
-To understand PBR better, I am working through the [PBR book](https://pbrt.org/).
-
-## Sources
-
-*https://learnopengl.com/
-*https://blog.selfshadow.com/publications/s2013-shading-course/hoffman/s2013_pbs_physics_math_notes.pdf (to understand BRDF and PBR better)
+I hope to extend this project to include the sequels [_Ray Tracing: The Next Week_](https://raytracing.github.io/books/RayTracingTheNextWeek.html) and [_Ray Tracing: The Rest of Your Life_](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html).
